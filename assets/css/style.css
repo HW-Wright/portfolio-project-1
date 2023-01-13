@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Pacifico&display=swap');
+
+body {
+    font-family: Nanum Myeongjo;
+    font-weight: 500;
+
+}
+
+#splash {
+
+}
+
+#splash div {
+    width: 33%;
+    display: inline-block;
+    height: 400px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
