@@ -6,6 +6,47 @@ body {
 
 }
 
+/* header */
+
+#title {
+    float: left;
+    color: rgb(223, 166, 64);
+    font-weight: 900;
+}
+
+nav {
+    display: block;
+}
+
+#page-nav {
+    display: inline;
+    float: right;
+    clear: right;
+    padding-top: 5px;
+}
+
+#page-nav li {
+    list-style-type: none;
+    display: inline;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+#page-nav a {
+    color: rgb(223, 166, 64);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.current {
+    border-bottom: 2px solid rgb(223, 166, 64);
+}
+
+#page-nav a:hover {
+    border-bottom: 2px solid rgb(223, 166, 64);
+}
+
+
 #splash {
 
 }
@@ -17,6 +58,8 @@ body {
     border: 1px solid black;
     box-sizing: border-box;
 }
+
+/* footer */
 
 footer {
     width: 100%;
