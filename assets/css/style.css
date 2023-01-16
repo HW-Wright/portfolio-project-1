@@ -3,8 +3,9 @@
 body {
     font-family: Nanum Myeongjo;
     font-weight: 500;
-    background-color: black;
+    background-color: black; 
     color:rgb(223, 166, 64);
+    /* color: #DB961A */
 }
 
 /* header */
@@ -105,6 +106,15 @@ fieldset {
     border-color:rgb(223, 166, 64);
 }
 
+/* section 2 */
+
+#reasons > li {
+    font-size: 150%;
+}
+
+#reasons li {
+    list-style-type: circle;
+}
 /* footer */
 
 footer {
