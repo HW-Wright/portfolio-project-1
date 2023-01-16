@@ -72,14 +72,6 @@ nav {
     font-weight: inherit;
 }
 
-div {
-    z-index: 2;
-}
-
-i {
-    z-index: 1;
-}
-
 #splash div {
     width: 33%;
     display: inline-block;
