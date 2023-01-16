@@ -55,7 +55,7 @@ nav {
 }
 
 
-/* section 1*/
+/* section 2*/
 
 #splash a {
     text-decoration: none;
@@ -106,7 +106,14 @@ fieldset {
     border-color: #9E6E18; 
 }
 
-/* section 2 */
+
+/* section 3 */
+
+#gif {
+    float: left;
+    display: inline;
+    padding-top: 5%;
+}
 
 #reasons > li {
     font-size: 150%;
