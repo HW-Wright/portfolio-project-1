@@ -120,6 +120,14 @@ fieldset {
     font-weight: 900;
 }
 
+tr, td {
+    border: solid 1px #dfa640;
+}
+
+tr {
+    text-align: center;
+}
+
 /* footer */
 
 footer {
