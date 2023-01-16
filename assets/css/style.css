@@ -101,6 +101,10 @@ nav {
     background-size: cover;
 }
 
+fieldset {
+    border-color:rgb(223, 166, 64);
+}
+
 /* footer */
 
 footer {
