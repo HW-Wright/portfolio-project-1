@@ -113,6 +113,10 @@ fieldset {
     padding-top: 5%;
 }
 
+table {
+    font-size: 115%;
+}
+
 #hidden {
     visibility: hidden;
 }
