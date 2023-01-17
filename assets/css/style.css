@@ -3,8 +3,6 @@
 body {
     font-family: Nanum Myeongjo;
     font-weight: 500;
-    /* background-color: black; */
-    /*color:rgb(223, 166, 64); */
     color: #9E6E18;
     background-color: #ffffff;
 }
@@ -115,6 +113,10 @@ fieldset {
     padding-top: 5%;
 }
 
+#hidden {
+    visibility: hidden;
+}
+
 #reasons > li {
     font-size: 150%;
 }
@@ -162,14 +164,66 @@ footer i {
 
 /* science.html */
 
+aside {
+    text-align: center;
+}
+
 video {
     padding: 1rem;
     position: absolute;
     left: 47rem;
-    top: 12rem;
+    top: 13rem;
     width: 40%;
 }
 
 #media {
-    padding: 130px 0;
+    padding: 130px 0 130px 20px;
+    font-weight: 900;
+
+}
+
+#media2 {
+    padding: 220px 0 220px 20px;
+    font-weight: 900;
+}
+
+iframe {
+    position: absolute;
+    left: 48rem;
+    width: 40%;
+    height: 400px;
+    bottom: -13rem;
+}
+
+#bee-image {
+    background-image: url(../images/beehive.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bee-image div {
+    width: 100%;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#reading {
+    text-align: center;
+}
+
+#reading li {
+    padding: 5px;
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#reading a {
+    text-decoration: none;
+    color: #9E6E18;
+}
+
+#reading a:hover {
+    text-decoration: underline;
 }
