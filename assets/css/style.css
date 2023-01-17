@@ -172,19 +172,16 @@ video {
     padding: 1rem;
     position: absolute;
     left: 47rem;
-    top: 13rem;
+    top: 14.5rem;
     width: 40%;
 }
 
 #media {
-    padding: 130px 0 130px 20px;
-    font-weight: 900;
-
+    padding: 100px 0 100px 20px;
 }
 
 #media2 {
-    padding: 220px 0 220px 20px;
-    font-weight: 900;
+    padding: 150px 0 150px 20px;
 }
 
 iframe {
@@ -192,7 +189,7 @@ iframe {
     left: 48rem;
     width: 40%;
     height: 400px;
-    bottom: -13rem;
+    bottom: -14rem;
 }
 
 #bee-image {
@@ -203,7 +200,7 @@ iframe {
     background-size: cover;
 }
 
-#bee-image div {
+#bee-image > div {
     width: 100%;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
@@ -226,4 +223,10 @@ iframe {
 
 #reading a:hover {
     text-decoration: underline;
+}
+
+.caption {
+    width: 45%;
+    font-weight: 900;
+    font-size: 200%;
 }
