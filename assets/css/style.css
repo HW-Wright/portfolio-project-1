@@ -158,3 +158,18 @@ footer i {
     color: black;
     padding: 20px;
 }
+
+
+/* science.html */
+
+video {
+    padding: 1rem;
+    position: absolute;
+    left: 47rem;
+    top: 12rem;
+    width: 40%;
+}
+
+#media {
+    padding: 130px 0;
+}
