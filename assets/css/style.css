@@ -306,4 +306,7 @@ iframe {
     #section3 {
         padding-bottom: 120px;
     }
+    #gif img {
+        visibility: hidden;
+    }
 }
