@@ -303,10 +303,8 @@ iframe {
     }
 }
 @media screen and (max-width: 600px) {
-    #section3 {
-        padding-bottom: 120px;
-    }
     #gif img {
         visibility: hidden;
+        height: 100px;
     }
 }
