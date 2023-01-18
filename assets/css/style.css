@@ -53,7 +53,7 @@ nav {
 }
 
 
-/* section 2*/
+/* section 1*/
 
 #splash a {
     text-decoration: none;
@@ -100,12 +100,16 @@ nav {
     background-size: cover;
 }
 
-fieldset {
-    border-color: #9E6E18; 
+#gif2 {
+    visibility: hidden;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    float: right;
 }
 
 
-/* section 3 */
+/* section 2 and 3 */
 
 #gif {
     float: left;
@@ -139,6 +143,10 @@ tr, td {
 
 tr {
     text-align: center;
+}
+
+fieldset {
+    border-color: #9E6E18; 
 }
 
 /* footer */
@@ -259,9 +267,12 @@ iframe {
     footer {
         padding-top: -15px;    
     }
+    ul {
+        padding: 10px;
+    }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 950px) {
     #splash div {
         width: 100%;
         margin: 0 auto;
@@ -270,5 +281,29 @@ iframe {
     #section3 {
         height: 700px;
     }
-    
+}
+
+/* responsive design elements for the header */
+
+@media screen and (max-width: 850px) {
+    #page-nav {
+        clear: left;
+        float: left;
+        line-height: 15px;
+        padding-left: 0px;
+        margin-top: 0;
+    }
+    #splash div {
+        width: 49%;
+        margin: 0 auto;
+        height: 200px;
+    }
+    #gif2 {
+        visibility: visible;
+    }
+}
+@media screen and (max-width: 600px) {
+    #section3 {
+        padding-bottom: 120px;
+    }
 }
