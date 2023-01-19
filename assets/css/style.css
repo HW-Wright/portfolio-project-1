@@ -117,6 +117,10 @@ nav {
     padding-top: 5%;
 }
 
+#section2 h2, #section3 h2 {
+    text-decoration: underline;
+}
+
 table {
     font-size: 115%;
 }
@@ -149,17 +153,22 @@ fieldset {
     border-color: #9E6E18; 
 }
 
+h4 {
+    text-align: center;
+}
+
 /* footer */
 
 footer {
     width: 100%;
-    height: 80px;
+    height: 110px;
     background-color: #dfa640;
     color: #000000;
+    padding-top: 10px;
 }
 
 footer ul{
-    text-align: center
+    text-align: center;
 }
 
 footer li {
@@ -171,6 +180,7 @@ footer li {
 footer i {
     color: black;
     padding: 20px;
+    line-height: 50%;
 }
 
 
@@ -178,6 +188,10 @@ footer i {
 
 aside {
     text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 video {
@@ -254,27 +268,21 @@ iframe {
     }
     #section3 {
         width: 75%;
-        height: 650px;
+        height: 400px;
         margin: 0 auto;
         text-align: center;
     }
     #section2 {
         padding-top: 10px;
     }
-    #section2, #section3 legend {
-        text-align: center;
-    }
     #section2 li {
         list-style-type: none;
     }
-    #gif {
-        float: right;
-    }
-    footer {
-        padding-top: -15px;    
-    }
     ul {
         padding: 10px;
+    }
+    #gif img {
+        display: none;
     }
 }
 
@@ -285,7 +293,7 @@ iframe {
         height: 500px;
     }
     #section3 {
-        height: 700px;
+        height: 400px;
     }
 }
 
@@ -305,31 +313,32 @@ iframe {
     #gif2 {
         visibility: visible;
     }
-}
-@media screen and (max-width: 600px) {
-    #gif img {
-        visibility: hidden;
-        height: 100px;
+    #section2, #section3 {
+        height: 40%;
     }
 }
-@media screen and (max-width: 601px) {
-    #section3 {
-        padding-bottom: 120px;
-    }
-}
+
 @media screen and (max-width: 530px) {
     #page-nav a {
         font-size: medium;
-    }
-    #section3 {
-        padding: 70px 0 10px 0;
     }
     .splash-link {
         font-size: medium;
     }
 }
-@media screen and (max-width: 480px) {
-    #section3 {
 
+@media screen and (max-width: 380px) {
+    #page-nav a {
+        font-size: small;
+    }
+    #page-nav li {
+        padding: 0
+    }
+    .splash-link {
+        font-size: small;
+    }
+    table td {
+        font-size: x-small;
     }
 }
+
