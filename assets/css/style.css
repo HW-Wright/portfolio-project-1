@@ -246,7 +246,13 @@ iframe {
 /* responsive design elements for index.html */
 
 @media screen and (max-width: 1200px) {
-    #section2, #section3 {
+    #section2 {
+        width: 75%;
+        height: 650px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #section3 {
         width: 75%;
         height: 650px;
         margin: 0 auto;
@@ -283,8 +289,6 @@ iframe {
     }
 }
 
-/* responsive design elements for the header */
-
 @media screen and (max-width: 850px) {
     #page-nav {
         clear: left;
@@ -306,5 +310,26 @@ iframe {
     #gif img {
         visibility: hidden;
         height: 100px;
+    }
+}
+@media screen and (max-width: 601px) {
+    #section3 {
+        padding-bottom: 120px;
+    }
+}
+@media screen and (max-width: 530px) {
+    #page-nav a {
+        font-size: medium;
+    }
+    #section3 {
+        padding: 70px 0 10px 0;
+    }
+    .splash-link {
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 480px) {
+    #section3 {
+
     }
 }
