@@ -196,7 +196,7 @@ h2 {
 
 #media {
     text-align: center;
-    padding: 100px 0 125px 20px;
+    padding: 120px 0 100px 20px;
 }
 
 
@@ -290,8 +290,7 @@ video {
     .caption {
         font-size: 150%;
     }
-    
-    
+
 }
 
 /* responsive design elements for max-width 950px */
@@ -331,6 +330,15 @@ video {
     .caption {
         font-size: 100%;
     }
+    video {
+        padding: 0 0 10% 10%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #media {
+        padding: 100px 0 20px 20px;
+    }
+
 }
 
 /* responsive design elements for max-width 530px */
