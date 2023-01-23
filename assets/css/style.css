@@ -161,10 +161,10 @@ h4 {
 
 footer {
     width: 100%;
-    height: 110px;
+    height: 100px;
     background-color: #dfa640;
     color: #000000;
-    padding-top: 10px;
+    padding-top: -10px;
 }
 
 footer ul{
@@ -186,12 +186,9 @@ footer i {
 
 /* science.html */
 
-aside {
-    text-align: center;
-}
-
 h2 {
     text-decoration: underline;
+    text-align: center;
 }
 
 #media {
@@ -244,6 +241,43 @@ video {
     padding: 0 0 10% 20%;
     width: 60%;
     margin: 0 auto;
+}
+
+/* sign-up.html */
+
+#thanks {
+    line-height: 30px;
+    padding: 40px 0 0 20px;
+    color: #B8B8B8;
+    width: 60%;
+}
+
+#form-area {
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#beekeeper-image {
+    background: url('../images/beekeeper.jpg') no-repeat;
+    background-size: cover;
+}
+
+#form {
+    padding-right: 150px;
+    float: right;
+}
+
+#form input {
+    display: block;
+    background: black;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #9E6E18;
+}
+
+#form label {
+    color: #B8B8B8;
 }
 
 /* responsive design elements for max-width 1350px */
