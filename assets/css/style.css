@@ -60,7 +60,7 @@ nav {
 }
 
 .splash-link {
-    color: black;
+    color: #5D5D5D;
     padding-left: 5px;
     text-decoration: none;
     font-style: italic;
@@ -252,7 +252,7 @@ video {
     line-height: 30px;
     padding: 40px 0 0 20px;
     color: #DADADA;
-    width: 60%;
+    width: 50%;
 }
 
 #form-area {
@@ -296,8 +296,9 @@ video {
     border-color: #dfa640;
 }
 
-#form label {
+.form-label {
     color: #DADADA;
+    padding-bottom: 20px;
 }
 
 button {
@@ -423,6 +424,9 @@ button:hover {
     }
     .caption {
         font-size: 100%;
+    }
+    #form input::placeholder{
+        font-size: x-small;
     }
 }
 
