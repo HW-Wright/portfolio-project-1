@@ -70,6 +70,8 @@ nav {
     font-style: italic;
     font-weight: 100;
     text-align: left;
+    z-index: 2;
+    position: absolute;
 }
 
 
@@ -81,28 +83,12 @@ nav {
     box-sizing: border-box;
 }
 
-#one {
-    background-image: url('../images/bee-and-flower2.jpeg');
+.one {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#two {
-    background-image: url('../images/honeycomb2.avif');
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#three {
-    background-image: url('../images/bee-and-honey.avif');
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    z-index: 1;
 }
 
 #gif2 {
