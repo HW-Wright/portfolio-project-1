@@ -55,6 +55,10 @@ nav {
 
 /* section 1*/
 
+#splash {
+    padding-top: 20px;
+}
+
 #splash a {
     text-decoration: none;
 }
