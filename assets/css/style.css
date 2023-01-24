@@ -126,10 +126,12 @@ table {
 
 #reasons li {
     list-style-type: circle;
+    font-weight: 900;
+    padding: 1%;
 }
 
 #reasons p {
-    font-weight: 900;
+    
 }
 
 tr, td {
