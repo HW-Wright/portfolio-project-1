@@ -130,8 +130,10 @@ table {
     padding: 1%;
 }
 
-#reasons p {
-    
+#reasons .list-item {
+    list-style-type: none;
+    font-size: medium;
+    padding: 0%;
 }
 
 tr, td {
@@ -144,10 +146,6 @@ tr {
 
 fieldset {
     border-color: #9E6E18; 
-}
-
-h4 {
-    text-align: center;
 }
 
 /* footer */
