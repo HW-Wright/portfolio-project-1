@@ -20,6 +20,12 @@ header {
     font-size: 250%;
 }
 
+#title > a {
+    font-weight: 900;
+    text-decoration: none;
+    color: #9E6E18;
+}
+
 nav {
     display: block;
 }
