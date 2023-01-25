@@ -259,7 +259,7 @@ video {
 }
 
 #beekeeper-image {
-    background: url('../images/beekeeper.jpg') no-repeat;
+    background: url('../images/beekeeper.jpg') no-repeat; 
     background-size: cover;
     font-weight: 800;
 }
