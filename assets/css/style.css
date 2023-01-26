@@ -114,8 +114,9 @@ nav {
     padding-top: 5%;
 }
 
-#section2 h2, #section3 h2 {
+h2 {
     text-decoration: underline;
+    letter-spacing: 0.1rem;
 }
 
 table {
@@ -136,7 +137,7 @@ table {
 }
 
 #reasons h3 {
-    padding-bottom: 0%;
+    padding-bottom: -10%;
 }
 
 #reasons .list-item {
@@ -239,6 +240,7 @@ video {
 
 #reading h3 {
     font-family: Pacifico;
+    letter-spacing: 0.1rem;
 }
 
 /* sign-up.html */
@@ -312,7 +314,7 @@ button:hover {
 
 /* responsive design elements for max-width 1800px */
 
-/* @media screen and (min-width: 1800px) {
+@media screen and (min-width: 1800px) {
     body {
         margin-left: auto;    
         margin-right: auto;
@@ -322,10 +324,8 @@ button:hover {
         font-size: 125%;
         line-height: 3rem;
     }
-    h2 {
-        letter-spacing: 0.1em;
-    }
-} */
+    
+}
 
 
 /* responsive design elements for max-width 1350px */
