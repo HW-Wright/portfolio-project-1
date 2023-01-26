@@ -59,7 +59,7 @@ nav {
 }
 
 
-/* section 1*/
+/* index.html section 1*/
 
 #splash {
     padding-top: 20px;
@@ -106,7 +106,7 @@ nav {
 }
 
 
-/* section 2 and 3 */
+/* index.html section 2 and 3 */
 
 #gif {
     float: left;
@@ -315,16 +315,47 @@ button:hover {
 /* responsive design elements for max-width 1800px */
 
 @media screen and (min-width: 1800px) {
-    body {
-        margin-left: auto;    
-        margin-right: auto;
+    #gif img {
+        display: none;
     }
-    #section2, #section3 {
+    #splash, #section2, #section3 {
         margin: 0 auto;
-        font-size: 125%;
         line-height: 3rem;
     }
-    
+    h2 {
+        font-size: 250%;
+    }
+    h3 {
+        font-size: 200%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    #reasons li {
+        list-style-type: none;
+        text-align: center;
+    }
+    #reasons .list-item {
+        font-size: 125%;
+        margin-top: 0;
+    }
+    .honey-facts {
+        font-size: 200%;
+        text-align: center;
+        line-height: 3rem;
+    }
+    table {
+        font-size: 200%;
+        margin: 0 auto;
+        width: 60%;
+    }
+    #reading a {
+        font-size: 200%;
+    }
+    #thanks {
+        text-align: left;
+        line-height: 5rem;
+    }
 }
 
 
