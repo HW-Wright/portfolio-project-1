@@ -133,13 +133,15 @@ table {
 #reasons li {
     list-style-type: circle;
     font-weight: 900;
-    padding: 1%;
+}
+
+#reasons h3 {
+    padding-bottom: 0%;
 }
 
 #reasons .list-item {
     list-style-type: none;
     font-size: medium;
-    padding: 0%;
 }
 
 tr, td {
@@ -148,10 +150,6 @@ tr, td {
 
 tr {
     text-align: center;
-}
-
-fieldset {
-    border-color: #9E6E18; 
 }
 
 /* footer */
@@ -312,6 +310,24 @@ button:hover {
     color: #9E6E18;
 }
 
+/* responsive design elements for max-width 1800px */
+
+/* @media screen and (min-width: 1800px) {
+    body {
+        margin-left: auto;    
+        margin-right: auto;
+    }
+    #section2, #section3 {
+        margin: 0 auto;
+        font-size: 125%;
+        line-height: 3rem;
+    }
+    h2 {
+        letter-spacing: 0.1em;
+    }
+} */
+
+
 /* responsive design elements for max-width 1350px */
 
 @media screen and (max-width: 1350px) {
@@ -359,7 +375,7 @@ button:hover {
 
 }
 
-/* responsive design elements for max-width 950px */
+/* responsive design elements for max-width 980px */
 
 @media screen and (max-width: 950px) {
     #splash div {
