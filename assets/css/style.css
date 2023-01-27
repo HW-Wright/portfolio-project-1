@@ -132,13 +132,18 @@ table {
 }
 
 #reasons li {
-    list-style-type: circle;
+    list-style-type: none;
     font-weight: 900;
 }
 
 #reasons h3 {
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+#reasons p {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 #reasons .list-item {
@@ -350,7 +355,6 @@ button:hover {
         text-align: center;
     }
     #reasons li {
-        list-style-type: none;
         text-align: center;
     }
     #reasons .list-item {
