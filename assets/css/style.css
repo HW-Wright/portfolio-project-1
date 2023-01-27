@@ -513,6 +513,9 @@ button:hover {
     #form input::placeholder{
         font-size: x-small;
     }
+    .splash-link {
+        font-size: small;
+    }
 }
 
 /* responsive design elements for max-width 3980px */
@@ -534,6 +537,9 @@ button:hover {
         font-size: x-small;
     }
     #thanks {
+        font-size: x-small;
+    }
+    .splash-link {
         font-size: x-small;
     }
 }
