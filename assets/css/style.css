@@ -20,7 +20,7 @@ header {
     font-size: 250%;
 }
 
-#title > a {
+#title>a {
     font-weight: 900;
     text-decoration: none;
     color: #9E6E18;
@@ -127,7 +127,7 @@ table {
     visibility: hidden;
 }
 
-#reasons > li {
+#reasons>li {
     font-size: 150%;
 }
 
@@ -151,7 +151,8 @@ table {
     font-size: medium;
 }
 
-tr, td {
+tr,
+td {
     border: solid 1px #dfa640;
 }
 
@@ -168,7 +169,7 @@ footer {
     color: #000000;
 }
 
-footer ul{
+footer ul {
     text-align: center;
 }
 
@@ -206,7 +207,7 @@ h2 {
     background-size: cover;
 }
 
-#bee-image > div {
+#bee-image>div {
     width: 100%;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
@@ -265,7 +266,7 @@ video {
 }
 
 #beekeeper-image {
-    background: url('../images/beekeeper.jpg') no-repeat; 
+    background: url('../images/beekeeper.jpg') no-repeat;
     background-size: cover;
     font-weight: 800;
 }
@@ -289,7 +290,7 @@ video {
     height: 20px;
 }
 
-#form input::placeholder{
+#form input::placeholder {
     color: #dfa640;
 }
 
@@ -315,6 +316,7 @@ button:hover {
     background-color: #DADADA;
     color: #9E6E18;
 }
+
 #form-area {
     height: 750px;
 }
@@ -325,66 +327,86 @@ button:hover {
     body {
         margin: 0 auto;
     }
+
     #title {
         font-size: 3rem;
     }
+
     #page-nav li {
         font-size: 2rem;
     }
+
     #gif img {
         display: none;
     }
-    header{
+
+    header {
         margin: 0 auto;
     }
+
     #splash {
         margin: 0 auto;
     }
-    #section2, #section3, aside {
+
+    #section2,
+    #section3,
+    aside {
         margin: 0 auto;
         max-width: 1500px;
         line-height: 3rem;
     }
+
     h2 {
         font-size: 250%;
     }
+
     h3 {
         font-size: 200%;
         padding-bottom: 0;
         margin-bottom: 0;
         text-align: center;
     }
+
     #reasons li {
         text-align: center;
     }
+
     #reasons .list-item {
         font-size: 125%;
         margin-top: 0;
     }
+
     .honey-facts {
         font-size: 200%;
         text-align: center;
         line-height: 3rem;
     }
+
     table {
         font-size: 200%;
         margin: 0 auto;
         width: 100%;
     }
+
     #reading a {
         font-size: 200%;
     }
+
     #thanks {
         text-align: left;
         line-height: 5rem;
     }
+
     #form-area {
         height: 1300px;
     }
+
     #form input {
         padding: 1em;
     }
-    #form input::placeholder, .form-label {
+
+    #form input::placeholder,
+    .form-label {
         font-size: 150%;
     }
 }
@@ -396,6 +418,7 @@ button:hover {
     video {
         left: 42rem;
     }
+
     iframe {
         left: 43rem;
     }
@@ -410,27 +433,34 @@ button:hover {
         margin: 0 auto;
         text-align: center;
     }
+
     #section3 {
         width: 75%;
         height: 400px;
         margin: 0 auto;
         text-align: center;
     }
+
     #section2 {
         padding-top: 10px;
     }
+
     #section2 li {
         list-style-type: none;
     }
+
     ul {
         padding: 10px;
     }
+
     #gif img {
         display: none;
     }
+
     aside {
         clear: both;
     }
+
     .caption {
         font-size: 150%;
     }
@@ -445,6 +475,7 @@ button:hover {
         margin: 0 auto;
         height: 500px;
     }
+
     #section3 {
         height: 400px;
     }
@@ -460,25 +491,32 @@ button:hover {
         padding-left: 0px;
         margin-top: 0;
     }
+
     #splash div {
         width: 49%;
         margin: 0 auto;
         height: 200px;
     }
+
     #gif2 {
         visibility: visible;
     }
-    #section2, #section3 {
+
+    #section2,
+    #section3 {
         height: 40%;
     }
+
     .caption {
         font-size: 100%;
     }
+
     video {
         padding: 0 0 10% 10%;
         width: 80%;
         margin: 0 auto;
     }
+
     #media {
         padding: 50px 0 20px 20px;
     }
@@ -490,6 +528,7 @@ button:hover {
     form {
         margin-bottom: 20px;
     }
+
     #thanks {
         font-size: small;
     }
@@ -501,18 +540,23 @@ button:hover {
     #page-nav a {
         font-size: medium;
     }
+
     aside {
         font-size: small;
     }
+
     .splash-link {
         font-size: medium;
     }
+
     .caption {
         font-size: 100%;
     }
-    #form input::placeholder{
+
+    #form input::placeholder {
         font-size: x-small;
     }
+
     .splash-link {
         font-size: small;
     }
@@ -524,23 +568,28 @@ button:hover {
     #page-nav a {
         font-size: small;
     }
+
     aside {
         font-size: x-small;
     }
+
     #page-nav li {
         padding: 0
     }
+
     .splash-link {
         font-size: small;
     }
+
     table td {
         font-size: x-small;
     }
+
     #thanks {
         font-size: x-small;
     }
+
     .splash-link {
         font-size: x-small;
     }
 }
-
