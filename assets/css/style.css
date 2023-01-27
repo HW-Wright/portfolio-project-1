@@ -137,7 +137,8 @@ table {
 }
 
 #reasons h3 {
-    padding-bottom: -10%;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #reasons .list-item {
@@ -312,14 +313,30 @@ button:hover {
     color: #9E6E18;
 }
 
-/* responsive design elements for max-width 1800px */
+/* responsive design elements for min-width 1800px */
 
 @media screen and (min-width: 1800px) {
+    body {
+        margin: 0 auto;
+    }
+    #title {
+        font-size: 3rem;
+    }
+    #page-nav li {
+        font-size: 2rem;
+    }
     #gif img {
         display: none;
     }
-    #splash, #section2, #section3 {
+    header{
         margin: 0 auto;
+    }
+    #splash {
+        margin: 0 auto;
+    }
+    #section2, #section3, aside {
+        margin: 0 auto;
+        max-width: 1500px;
         line-height: 3rem;
     }
     h2 {
@@ -347,14 +364,18 @@ button:hover {
     table {
         font-size: 200%;
         margin: 0 auto;
-        width: 60%;
+        width: 100%;
     }
+    
     #reading a {
         font-size: 200%;
     }
     #thanks {
         text-align: left;
         line-height: 5rem;
+    }
+    form {
+
     }
 }
 
