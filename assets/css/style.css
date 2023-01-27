@@ -266,14 +266,12 @@ video {
 }
 
 #form {
-    position: absolute;
-    left: 60%;
-    bottom: -5%;
+    float: right;
     width: 25%;
     background-color: rgba(0, 0, 0, 0.4);
     border: 1px solid #DADADA;
     padding: 2%;
-    
+    margin-right: 15%;
 }
 
 #form input {
@@ -311,6 +309,9 @@ button {
 button:hover {
     background-color: #DADADA;
     color: #9E6E18;
+}
+#form-area {
+    height: 750px;
 }
 
 /* responsive design elements for min-width 1800px */
@@ -366,7 +367,6 @@ button:hover {
         margin: 0 auto;
         width: 100%;
     }
-    
     #reading a {
         font-size: 200%;
     }
@@ -374,8 +374,14 @@ button:hover {
         text-align: left;
         line-height: 5rem;
     }
-    form {
-
+    #form-area {
+        height: 1300px;
+    }
+    #form input {
+        padding: 1em;
+    }
+    #form input::placeholder, .form-label {
+        font-size: 150%;
     }
 }
 
@@ -472,10 +478,17 @@ button:hover {
     #media {
         padding: 50px 0 20px 20px;
     }
-    #form {
-        bottom: -30%;
-    }
+}
 
+/* responsive design elements for max-width 650px */
+
+@media screen and (max-width: 650px) {
+    form {
+        margin-bottom: 20px;
+    }
+    #thanks {
+        font-size: small;
+    }
 }
 
 /* responsive design elements for max-width 530px */
@@ -498,9 +511,9 @@ button:hover {
     }
 }
 
-/* responsive design elements for max-width 380px */
+/* responsive design elements for max-width 3980px */
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
     #page-nav a {
         font-size: small;
     }
@@ -514,6 +527,9 @@ button:hover {
         font-size: small;
     }
     table td {
+        font-size: x-small;
+    }
+    #thanks {
         font-size: x-small;
     }
 }
