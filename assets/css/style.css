@@ -472,15 +472,19 @@ button:hover {
 
 /* responsive design elements for max-width 980px */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 980px) {
     #splash div {
-        width: 100%;
+        width: 49%;
         margin: 0 auto;
         height: 500px;
     }
 
     #section3 {
         height: 400px;
+    }
+
+    #gif2 {
+        visibility: visible;
     }
 }
 
@@ -499,10 +503,6 @@ button:hover {
         width: 49%;
         margin: 0 auto;
         height: 200px;
-    }
-
-    #gif2 {
-        visibility: visible;
     }
 
     #section2,

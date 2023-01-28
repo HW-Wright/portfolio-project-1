@@ -69,13 +69,19 @@ Below the video element container is an external navigation section, providing l
 ![Science.html external navigation](/assets/images/external-links.jpeg)
 The central section of science.html consists of a video element within a container. The video is an external resource from YouTube, explaining the importance of bees to human civilisation. The video will not autoplay and the user has complete control over the video.
 ![Science.html video element](/assets/images/video.jpeg)
-- 
+- sign-up.html cosists of a page header followed by a form to sign up for The Bee People's newsletter.
+Within the form container a thank you message and appeal to the users sits at the top left. The form element occupies the space below and to the right.
+![Form element](/assets/images/form-section.jpeg)
 ### Color Scheme
 ----------------------------
-
+The final color scheme went through several stages of development. Initially yellow text and element borders was to be set against a black backround. However this was found to be too dark and not in keeping with the natrualistic theme of the site. Instead, the current rich and dark gold text is set against a white background. In keeping with the theme of bees and the images that would be used for the site, I wanted to use the colors yellow and black for the text. The color #9E6E18 was chosen to make the text stand out more against the white background, over yellow. The text in the splash section is #2F2B11 which was chosen over black; as black was deemed to contrast too much with the bright images in this section. The footer is set to the warm golden color of #dfa640 with black AwsomeFont icons, to reflect the color scheme most accociated with the bee.
 ### Media
 ----------------------------
-
+As well as the media presented in the layout section of this document, additional animations have been included for certain screen sizes.
+- On a medium size screen the user will see an animation of a bee flying in a figure eight pattern to the left of Section 3 in index.html.
+![Bee gif](/assets/images/bee-gif.jpeg)
+- When the viewport is reduced down to the size of a tablet or mobile device an additional animation of a bee carrying honey is introduced alongside the splash images in index.html.
+![Bee gif 2](/assets/images/bee-gif-index.jpeg)
 ## Testing
 
 ### Validators
