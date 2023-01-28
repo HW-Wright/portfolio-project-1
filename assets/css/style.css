@@ -527,6 +527,9 @@ button:hover {
     #thanks {
         font-size: small;
     }
+    .form-label {
+        font-size: small;
+    }
 }
 
 /* responsive design elements for max-width 650px */
