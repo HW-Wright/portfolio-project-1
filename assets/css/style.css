@@ -276,7 +276,7 @@ aside h3 {
 
 #form {
     float: right;
-    width: 25%;
+    width: 30%;
     background-color: rgba(0, 0, 0, 0.4);
     border: 1px solid #DADADA;
     padding: 2%;
@@ -595,7 +595,5 @@ button:hover {
     .splash-link {
         font-size: x-small;
     }
-    #form {
-        width: 30%;
-    }
+    
 }
