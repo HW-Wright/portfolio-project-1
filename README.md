@@ -83,7 +83,11 @@ As well as the media presented in the layout section of this document, additiona
 - When the viewport is reduced down to the size of a tablet or mobile device an additional animation of a bee carrying honey is introduced alongside the splash images in index.html.
 ![Bee gif 2](/assets/images/bee-gif-index.jpeg)
 ## Testing
-
+### Browser Testing
+----------------------------
+- I have tested that this site works on macOS (Ventura 13.1).
+- I have tested that this site works on Chrone, Safari, and Brave browsers.
+- I have tested that this site works and responds to a mobile devise (iPhone 13 Pro)
 ### Validators
 ----------------------------
 

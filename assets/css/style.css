@@ -523,6 +523,10 @@ button:hover {
     #media {
         padding: 50px 0 20px 20px;
     }
+
+    #thanks {
+        font-size: small;
+    }
 }
 
 /* responsive design elements for max-width 650px */
@@ -530,10 +534,6 @@ button:hover {
 @media screen and (max-width: 650px) {
     form {
         margin-bottom: 20px;
-    }
-
-    #thanks {
-        font-size: small;
     }
 }
 
@@ -594,5 +594,8 @@ button:hover {
 
     .splash-link {
         font-size: x-small;
+    }
+    #form {
+        width: 30%;
     }
 }
