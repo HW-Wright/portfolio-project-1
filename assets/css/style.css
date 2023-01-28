@@ -249,6 +249,9 @@ video {
     font-family: Pacifico;
     letter-spacing: 0.1rem;
 }
+aside h3 {
+    text-align: center;
+}
 
 /* sign-up.html */
 
