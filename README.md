@@ -146,4 +146,8 @@ The Bee People site was published to GitHub pages.
 - All background images came from the stock image website Pexels.
 - The science.html video element: The video is taken from the Kurzgesagt YouTube channel.
 - The animated gif used in index.html were taken from Giphy. 
-----------------------------
+- The image at the top of this document was generated my Am I responsive.
+
+## Acknowledgments
+Brian Macharia, my Code Institue mentor.
+The student support systems at Code Institute. 
