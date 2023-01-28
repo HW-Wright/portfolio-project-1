@@ -1,6 +1,8 @@
 # The Bee People
 My first Portfolio Project is a site for a fictional wildlife association who’s goal is to educate people about the importance of bees to the eco system, while raising awareness of the issues that bee species face. The target for the site is anyone who cares for the environment, it is visually appealing and provides information in simple terms so as to be accessible to people of all ages and backgrounds.
 
+![Am I responsive screenshot](/assets/images/am-i-responsive.jpeg)
+
 ## User Experience (UX)
 ### User Stories
 ----------------------------
@@ -47,11 +49,27 @@ My first Portfolio Project is a site for a fictional wildlife association who’
 - It contains a list element containing anchors to various social media accounts (Twitter, Instagram, Facebook).
 - Each link is presended as a FontAwesome icon of each social media company.
 #### Features to be added
-
+- In the future I would like to add an interactive quiz to further engage users.
 ## Design
 ### Layout
 ----------------------------
-
+- The header and footer elements are identical on each page of the site, consisting of the site title on the left hand side, and site navigation on the right.
+![Header element](/assets/images/header.jpeg)
+![Footer element](/assets/images/footer.jpeg)
+- index.html consists of three distinct secions, reflecting the rule of thirds. The first thrid is image based, while aslo acting as a navigation system for the page itself. The images are inline on large screens and stack as the viewport decreaces. 
+![Splash element](/assets/images/splash-image.jpeg)
+The second third is text based and sticks to the left side on medium sized screens, while becoming central on larger and smaller sized screens. The section consitsts of a list containing headers and paragraphs.
+![Section 2](/assets/images/section2.jpeg)
+The third third is text based and includes a table element. It sticks to the right side on medium sized screens, while becoming central on larger and smaller sized screens. On medium screens an animation plays in the empty space to the left of this section, while disapearing when the area becomes central.
+![Section3](/assets/images/section3.jpeg)
+- science.html also consists of three sections. One large section containing the video element and two smaller elements above and below.
+Above the video element container is a page heading and message for the reader explaining the purpose and contents of the page.
+![Science.html header](/assets/images/science.html-aside.jpeg)
+Below the video element container is an external navigation section, providing links to other reasources to further educate the user, as per the aim of the site.
+![Science.html external navigation](/assets/images/external-links.jpeg)
+The central section of science.html consists of a video element within a container. The video is an external resource from YouTube, explaining the importance of bees to human civilisation. The video will not autoplay and the user has complete control over the video.
+![Science.html video element](/assets/images/video.jpeg)
+- 
 ### Color Scheme
 ----------------------------
 
