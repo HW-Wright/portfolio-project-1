@@ -5,6 +5,8 @@ body {
     font-weight: 500;
     color: #9E6E18;
     background-color: #ffffff;
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 /* header */
