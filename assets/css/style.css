@@ -414,6 +414,14 @@ button:hover {
     .form-label {
         font-size: 150%;
     }
+    
+    footer {
+        height: 100px;
+    }
+
+    footer li {
+        font-size: 400%;
+    }
 }
 
 
