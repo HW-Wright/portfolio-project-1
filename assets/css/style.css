@@ -258,14 +258,16 @@ aside h3 {
 /* sign-up.html */
 
 #thanks {
-    line-height: 30px;
-    padding: 40px 0 0 20px;
     color: #DADADA;
     width: 50%;
+    text-align: left;
+    line-height: 1.5rem;
 }
 
 #form-area {
-    height: 800px;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 5%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -277,12 +279,12 @@ aside h3 {
 }
 
 #form {
-    float: right;
+    margin-left: auto;
+    min-width: 280px;
     width: 30%;
     background-color: rgba(0, 0, 0, 0.4);
     border: 1px solid #DADADA;
     padding: 2%;
-    margin-right: 15%;
 }
 
 #form input {
@@ -293,10 +295,12 @@ aside h3 {
     width: 95%;
     border: 1px solid #DADADA;
     height: 20px;
+    padding: 2%;
 }
 
 #form input::placeholder {
     color: #dfa640;
+    font-size: large;
 }
 
 #form input:hover {
@@ -306,6 +310,7 @@ aside h3 {
 .form-label {
     color: #DADADA;
     padding-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 button {
@@ -329,11 +334,7 @@ button:hover {
 /* responsive design elements for min-width 1800px */
 
 @media screen and (min-width: 1800px) {
-    body {
-        margin: 0 auto;
-    }
-
-    #title {
+     #title {
         font-size: 3rem;
     }
 
@@ -403,7 +404,9 @@ button:hover {
     }
 
     #form-area {
-        height: 1300px;
+        height: fit-content;
+        box-sizing: border-box;
+        padding: 5%;
     }
 
     #form input {
@@ -535,8 +538,14 @@ button:hover {
     }
 
     #thanks {
-        font-size: small;
+        font-size: medium;
+        width: 100%;
     }
+
+    #form {
+        width: 100%
+    }
+
     .form-label {
         font-size: small;
     }
