@@ -291,11 +291,11 @@ aside h3 {
     display: block;
     background: transparent;
     color: #DADADA;
-    margin-bottom: 15%;
+    margin-bottom: 35px;
     width: 95%;
     border: 1px solid #DADADA;
     height: 20px;
-    padding: 2%;
+    padding: 1em;
 }
 
 #form input::placeholder {
